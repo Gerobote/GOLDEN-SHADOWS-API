@@ -1,0 +1,33 @@
+# Entorno / dependencias
+.venv/
+env/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Config/secretos
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Tests / reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs / dumps
+*.log
+dump/
+backups/
+
+# Otros
+*.sqlite
